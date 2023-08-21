@@ -1,3 +1,5 @@
+import Searchbar from "./Searchbar";
+
 export const App = () => {
   return (
     <div
@@ -10,6 +12,7 @@ export const App = () => {
         color: '#010101'
       }}
     >
+      <Searchbar/>
       React homework template
     </div>
   );
