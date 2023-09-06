@@ -15,7 +15,7 @@ class Searchbar extends Component {
     onFormSubmit = ({input},{resetForm}) => {
        
         this.props.onSubmit(input)
-        resetForm();
+         resetForm();
     }
     render() {
         return (

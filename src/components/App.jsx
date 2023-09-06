@@ -1,4 +1,4 @@
-import { GlobalStyle } from "GlobalStyles";
+
 import  React, { Component } from "react";
 import Searchbar from "./Searchbar";
 import { ToastContainer, toast } from 'react-toastify';
@@ -6,7 +6,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import { ImageGallery } from "./ImageGallery/ImageGallery";
 import { fetchImg } from '../services/serviceAPI'
 import { AppContainer } from "./App.styled";
-import { LoadMoreBtn } from "LoadMoreBtn/LoadMoreBtn";
+import { LoadMoreBtn } from "components/LoadMoreBtn/LoadMoreBtn";
 import { Loader } from "./Loader/Loader";
 
 
